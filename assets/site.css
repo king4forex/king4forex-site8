@@ -1,0 +1,5 @@
+/* Optional deployment-safe polish layer for the imported Stitch pages. */
+html{scroll-behavior:smooth} body{overflow-x:hidden} a,button{transition:transform .22s ease,box-shadow .22s ease,opacity .22s ease} a:hover,button:hover{filter:brightness(1.035)}
+.reveal-ready{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s cubic-bezier(.2,.7,.2,1)}.reveal-ready.is-visible{opacity:1;transform:none}
+:focus-visible{outline:2px solid #0875df;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}.reveal-ready{opacity:1;transform:none}}
